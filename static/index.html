@@ -6,11 +6,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div>
+<div class="spinnerWrapper">
     <span class="spinner"></span>
 </div>
 
 <canvas id="chart" width="1000" height="600"></canvas>
+
+<div>
+    <button id="fetchStocks">Fetch Stocks</button>
+    <ul id="stockList"></ul>
+    <div id="stockDetails"></div>
+</div>
 
 <script src="scripts.js" defer></script>
 </body>
